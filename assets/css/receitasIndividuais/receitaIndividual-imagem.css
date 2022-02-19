@@ -1,0 +1,28 @@
+.receitaIndividual__imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.receitaIndividual__imagem--porcao {
+  background-image: url("../../img/receitas/bandeja.jpg");
+}
+
+.receitaIndividual__imagem--tempo {
+  background-image: url("../../img/receitas/relogio.jpg");
+}
+
+@media screen and (min-width: 0) {
+  .receitaIndividual__imagem {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .receitaIndividual__imagem {
+    width: 30px;
+    height: 30px;
+  }
+}

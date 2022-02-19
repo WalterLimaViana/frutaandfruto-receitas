@@ -1,0 +1,23 @@
+.receita__banner--titulo {
+  color: #fdfdfd;
+  font-family: Pacifico, cursive;
+  left: 51%;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 1.2);
+  top: 85%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .receita__banner--titulo {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .receita__banner--titulo {
+    font-size: 3rem;
+  }
+}

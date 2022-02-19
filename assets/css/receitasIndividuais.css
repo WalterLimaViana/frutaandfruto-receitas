@@ -1,0 +1,16 @@
+.receita__individual {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 0) {
+  .receita__individual {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .receita__individual {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,15 @@
+.receitas__ingredientes {
+  padding: 0 0 0 1.5rem;
+  margin-left: 5px;
+}
+
+.itens__ingredientes {
+  padding: 0 0 0 1.5rem;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.itens__ingredientes--simbolo::before {
+  content: "∘";
+}
