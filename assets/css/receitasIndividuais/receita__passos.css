@@ -1,29 +1,58 @@
 .receitas__ingredientes {
-  padding: 0 0 0 1.5rem;
   margin-left: 5px;
 }
 
 .receita__passos {
   padding: 0 0 0 1.5rem;
-  font-size: 15px;
+
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.receita__passos--um::before {
-  content: "１ ";
-  font-size: 2em;
+@media screen and (min-width: 0) {
+  .receita__passos {
+    font-size: 15px;
+    padding: 0 0 0 1rem;
+  }
+  .receita__passos--um::before {
+    content: "１ ";
+    font-size: 1.2em;
+  }
+
+  .receita__passos--dois::before {
+    content: "２ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--tres::before {
+    content: "３ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--quatro::before {
+    content: "４ ";
+    font-size: 1.2em;
+  }
 }
 
-.receita__passos--dois::before {
-  content: "２ ";
-  font-size: 2em;
-}
-.receita__passos--tres::before {
-  content: "３ ";
-  font-size: 2em;
-}
-.receita__passos--quatro::before {
-  content: "４ ";
-  font-size: 2em;
+@media screen and (min-width: 768px) {
+  .receita__passos {
+    font-size: 15px;
+    padding: 0 0 0 1.5rem;
+  }
+  .receita__passos--um::before {
+    content: "１ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--dois::before {
+    content: "２ ";
+    font-size: 2em;
+  }
+  .receita__passos--tres::before {
+    content: "３ ";
+    font-size: 2em;
+  }
+  .receita__passos--quatro::before {
+    content: "４ ";
+    font-size: 2em;
+  }
 }

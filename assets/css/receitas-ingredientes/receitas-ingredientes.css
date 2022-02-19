@@ -1,10 +1,4 @@
-.receitas__ingredientes {
-  padding: 0 0 0 1.5rem;
-  margin-left: 5px;
-}
-
 .itens__ingredientes {
-  padding: 0 0 0 1.5rem;
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -12,4 +6,31 @@
 
 .itens__ingredientes--simbolo::before {
   content: "∘";
+}
+
+@media screen and (min-width: 0) {
+  .receitas__ingredientes {
+    padding: 0 0 0 1rem;
+  }
+  .itens__ingredientes {
+    padding: 0 0 0 1rem;
+    font-size: 15px;
+  }
+  .itens__ingredientes--simbolo::before {
+    padding: 0 0 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .receitas__ingredientes {
+    padding: 0 0 0 1.5rem;
+    margin-left: 0;
+  }
+  .itens__ingredientes {
+    padding: 0 0 0 1.5rem;
+    font-size: 15px;
+  }
+  .itens__ingredientes--simbolo::before {
+    padding: 0 0 0 1.5rem;
+  }
 }
