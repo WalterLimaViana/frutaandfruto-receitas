@@ -31,6 +31,55 @@
     content: "４ ";
     font-size: 1.2em;
   }
+
+  .receita__passos--cinco::before {
+    content: "５ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--seis::before {
+    content: "６ ";
+    font-size: 1.2em;
+  }
+
+  .receita__passos--sete::before {
+    content: "７ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--oito::before {
+    content: "８ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--nove::before {
+    content: "９ ";
+    font-size: 1.2em;
+  }
+
+  .receita__passos--dez::before {
+    content: "１０ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--onze::before {
+    content: "１１ ";
+    font-size: 1.2em;
+  }
+
+  .receita__passos--doze::before {
+    content: "１２ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--treze::before {
+    content: "１３ ";
+    font-size: 1.2em;
+  }
+  .receita__passos--quatorze::before {
+    content: "１４ ";
+    font-size: 1.2em;
+  }
+
+  .receita__passos--quinze::before {
+    content: "１５ ";
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -53,6 +102,55 @@
   }
   .receita__passos--quatro::before {
     content: "４ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--cinco::before {
+    content: "５ ";
+    font-size: 2em;
+  }
+  .receita__passos--seis::before {
+    content: "６ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--sete::before {
+    content: "７ ";
+    font-size: 2em;
+  }
+  .receita__passos--oito::before {
+    content: "８ ";
+    font-size: 2em;
+  }
+  .receita__passos--nove::before {
+    content: "９ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--dez::before {
+    content: "１０ ";
+    font-size: 2em;
+  }
+  .receita__passos--onze::before {
+    content: "１１ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--doze::before {
+    content: "１２ ";
+    font-size: 2em;
+  }
+  .receita__passos--treze::before {
+    content: "１３ ";
+    font-size: 2em;
+  }
+  .receita__passos--quatorze::before {
+    content: "１４ ";
+    font-size: 2em;
+  }
+
+  .receita__passos--quinze::before {
+    content: "１５ ";
     font-size: 2em;
   }
 }
