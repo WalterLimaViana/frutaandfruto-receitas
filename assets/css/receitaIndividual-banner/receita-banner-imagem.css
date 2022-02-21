@@ -22,11 +22,39 @@
     center / cover;
 }
 
+.receita__banner--imagemFive {
+  width: 100%;
+  background: url("../../img/receitas/cocada-mole-de-laranja.jpg") no-repeat
+    center / cover;
+}
+
+.receita__banner--imagemSix {
+  width: 100%;
+  background: url("../../img/receitas/torta-de-maca.jpg") no-repeat center /
+    cover;
+}
+
+.receita__banner--imagemSeven {
+  width: 100%;
+  background: url("../../img/receitas/escondidinho-de-uva-italia.jpg") no-repeat
+    center / cover;
+}
+
+.receita__banner--imagemEight {
+  width: 100%;
+  background: url("../../img/receitas/pave-de-morango.jpg") no-repeat center /
+    cover;
+}
+
 @media screen and (min-width: 0) {
   .receita__banner--imagemOne,
   .receita__banner--imagemTwo,
   .receita__banner--imagemThree,
-  .receita__banner--imagemFour {
+  .receita__banner--imagemFour,
+  .receita__banner--imagemFive,
+  .receita__banner--imagemSix,
+  .receita__banner--imagemSeven,
+  .receita__banner--imagemEight {
     height: 60vh;
   }
 }
@@ -35,7 +63,11 @@
   .receita__banner--imagemOne,
   .receita__banner--imagemTwo,
   .receita__banner--imagemThree,
-  .receita__banner--imagemFour {
-    height: calc(60vh - 20px);
+  .receita__banner--imagemFour,
+  .receita__banner--imagemFive,
+  .receita__banner--imagemSix,
+  .receita__banner--imagemSeven,
+  .receita__banner--imagemEight {
+    height: calc(60vh);
   }
 }

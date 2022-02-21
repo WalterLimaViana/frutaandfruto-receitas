@@ -27,7 +27,7 @@
     margin-left: 0;
   }
   .itens__ingredientes {
-    padding: 0 0 0 1.5rem;
+    padding: 0 0 0 1.35rem;
     font-size: 15px;
   }
   .itens__ingredientes--simbolo::before {
