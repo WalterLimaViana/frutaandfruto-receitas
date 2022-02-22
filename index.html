@@ -37,6 +37,16 @@
         <link rel="stylesheet" href="assets/css/pessoas/pessoa-imagem.css">
         <link rel="stylesheet" href="assets/css/pessoas/pessoa-nome.css">
         <link rel="stylesheet" href="assets/css/pessoas/pessoa.css">
+        <link rel="stylesheet" href="assets/css/comunidade/comunidade.css">
+        <link rel="stylesheet"
+            href="assets/css/comunidade/comunidade-titulo.css">
+        <link rel="stylesheet"
+            href="assets/css/comunidade/comunidade-descricao.css">
+        <link rel="stylesheet" href="assets/css/redes-sociais.css">
+        <link rel="stylesheet"
+            href="assets/css/redesSociais/redeSociais-imagem.css">
+        <link rel="stylesheet"
+            href="assets/css/redesSociais/redesSociais-link.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
 
     </head>
@@ -46,10 +56,13 @@
             <nav class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Quem
+                    <li class="menu__item"><a class="menu__link"
+                            href="#receitas">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link"
+                            href="#quemSomos">Quem
                             Somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+                    <li class="menu__item"><a class="menu__link"
+                            href="#comunidade">Comunidade</a></li>
                 </ul>
             </nav>
         </header>
@@ -63,7 +76,10 @@
             <p class="sobre__descricao">Separamos receitas refrescantes para
                 comer sozinho ou com a familia</p>
         </section>
-        <section class="receitas">
+        <a name="receitas"></a>
+        <section class="receitas__tituloPrincipalReceitas">
+            <h2 class="receitas__tituloLink">Receitas</h2>
+        </section> <section class="receitas">
             <div class="receita">
                 <img alt="Creme de açaí com abacate" class="receita__imagem"
                     src="./assets/img/receitas/creme-de-acai-com-abacate.jpg" />
@@ -169,6 +185,7 @@
             </div>
         </section>
         <section class="quem-somos">
+            <a name="quemSomos"></a>
             <h3 class="quem-somos__titulo">Quem somos</h3>
             <p class="quem-somos__descricao">Conheça a comunidade por trás da
                 iniciativa</p>
@@ -188,6 +205,38 @@
                     <span class="pessoa__nome">Andréia</span>
                     <span class="pessoa__funcao">Pequena Produtora</span>
                 </div>
+            </div>
+        </section>
+        <a name="comunidade"></a>
+        <section class="comunidade">
+            <h3 class="comunidade__titulo">Comunidade</h3>
+            <p class="comunidade__descricao">Faça parte da nossa comunidade
+                enviando email para <a class="redeSociais__link"
+                    href="mailto:email@email.com">email@email.com</a> e siga
+                também nossas redes sociais</p>
+            <div class="redesSociais">
+                <div>
+                    <div class="redesSociais__logo
+                        redesSociais__logo--Facebook">
+                    </div>
+                    <span class="comunidade__redesSociais"></span>
+                    <a class="redeSociais__link"
+                        href="https://www.facebook.com/">Facebook</a>
+                </div>
+                <div>
+                    <div class="redesSociais__logo redesSociais__logo--Youtube"></div>
+                    <span class="comunidade__redesSociais--Youtube"></span>
+                    <a class="redeSociais__link"
+                        href="https://www.youtube.com/">Youtube</a>
+                </div>
+                <div>
+                    <div class="redesSociais__logo
+                        redesSociais__logo--Instagram"></div>
+                    <span class="comunidade__redesSociais--Instagram"></span>
+                    <a class="redeSociais__link"
+                        href="https://www.instagram.com/?hl=en/">Instagram</a>
+                </div>
+
             </div>
         </section>
         <footer class="rodape">
