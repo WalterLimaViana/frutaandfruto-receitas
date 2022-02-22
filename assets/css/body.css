@@ -3,8 +3,10 @@ body {
 }
 
 .fonte {
+  margin-left: 7rem;
+  margin-bottom: 3rem;
   padding: 0 0 0 1.5rem;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

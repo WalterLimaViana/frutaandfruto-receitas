@@ -1,5 +1,4 @@
 .itens__ingredientes {
-  font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -27,10 +26,17 @@
     margin-left: 0;
   }
   .itens__ingredientes {
-    padding: 0 0 0 1.35rem;
-    font-size: 15px;
+    padding: 1.5rem 8rem 1.5rem 8rem;
+    font-size: 16px;
   }
   .itens__ingredientes--simbolo::before {
     padding: 0 0 0 1.5rem;
+  }
+
+  .itens__ingredientes:first-child {
+    margin-top: 3rem;
+  }
+  .itens__ingredientes:last-child {
+    margin-bottom: 3rem;
   }
 }
