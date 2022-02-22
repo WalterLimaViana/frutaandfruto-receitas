@@ -1,5 +1,5 @@
-#Fruta & fruto
-Página de receitas desenvolvida a partir do curso de HTML5 e CSS3 da alura.
+<h1>#Fruta & fruto<h1>
+<h2>Página de receitas desenvolvida a partir do curso de HTML5 e CSS3 da alura.<h2>
 Receitas da página:
 
 - Creme de açai com abacate;
