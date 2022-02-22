@@ -1,7 +1,7 @@
-<h1>#Fruta & fruto<h1>
-<h2>Página de receitas desenvolvida a partir do curso de HTML5 e CSS3 da alura.<h2>
+<h1>#Fruta & fruto</h1>
+<h2>Página de receitas desenvolvida a partir do curso de HTML5 e CSS3 da alura.</h2>
 Receitas da página:
-
+<h3>
 - Creme de açai com abacate;
 - Doce de casce de maracujá;
 - Chico balanceado com bana;
@@ -10,3 +10,4 @@ Receitas da página:
 - Torta de maçã;
 - Escondidinho de uva itália;
 - Pavê de mmorango.
+</h3>
