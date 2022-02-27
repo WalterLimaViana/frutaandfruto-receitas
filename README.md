@@ -9,5 +9,7 @@
 <h4>- Cocada de mole de laranja;</h4>
 <h4>- Torta de maçã;</h4>
 <h4>- Escondidinho de uva itália;</h4>
-<h4>- Pavê de mmorango.</h>
+<h4>- Pavê de morango.</h4>
 
+
+![image](https://user-images.githubusercontent.com/86333045/155866268-d2b8246b-016d-435f-baa3-1bdb1b7ae897.png)
